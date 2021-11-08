@@ -1,3 +1,11 @@
+Technical Deep Dive: https://drive.google.com/file/d/1puaWv7efXQvj1ACkRImwXPihBwmLXZRU/view?usp=sharing
+
+The most interesting code files are:
+
+- bin/kmstool-enclave/main.c:  Enclave internal code for encryption and computation
+- local_rotation.py: Programmatically runs the enclave and interfaces with AWS S3
+
+
 # AWS Nitro Enclaves SDK for C
 
 ## Security
